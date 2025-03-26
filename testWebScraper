@@ -27,7 +27,7 @@ def summarize_text(text):
     }
     
     data = {
-        "model": "gpt-4-turbo",  # Use GPT-4 for better summaries
+        "model": "gpt-4-mini",  # Use GPT-4 for better summaries
         "messages": [
             {"role": "system", "content": "You are an AI assistant that summarizes text."},
             {"role": "user", "content": f"Summarize the following text:\n\n{text}"}
